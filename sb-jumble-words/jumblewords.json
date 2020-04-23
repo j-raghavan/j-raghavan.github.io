@@ -18,7 +18,7 @@
     "         a   aa i  ii  u  uu  .r  .r.r  e  ai  o  au  a.m  a.h",
     "",
     "For Example if you want to write chaalaka in SKT, you would say",
-    "           caa   l    ka.h",
+    "           caa   la    ka.h",
     "",
     "Please note, there is a back-slash \\ that you have use when",
     "There is a leading \" double quotes.",
@@ -626,6 +626,12 @@
       "word": ["me", "gha.h"],
       "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cumulus_clouds_panorama.jpg",
       "hint": [" Clouds "]
+    },
+    {
+      "id":   "101",
+      "word": ["nau", "kaa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/MSC_Poesia_Vision_of_the_Seas_%26_Mein_Schiff_2_in_Tallinn_13_June_2012.JPG".
+      "hint": [" Ship "]
     }
   ]
 }
