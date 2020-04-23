@@ -1,0 +1,631 @@
+{
+  "_comments": [
+    "This section describes how to express the words in SKT",
+    "package Syntax. SKT is the package used internally to generate",
+    "flash cards. Read this section carefully before you start",
+    "adding words. Look at the '{' and '}' below under cards",
+    "section. That is where you will add to the list of words",
+    "",
+    "To Write Ka Varga:      k    kh    g    gh   \"n",
+    "To Write Cha Varga:     c    ch    j    jh   ~n",
+    "To Write Ta Varga:      .t   .th   .d   .dh  .n",
+    "To Write tha Varga:     t    th    d    dh   n",
+    "To Write Pa Varga:      p    ph    b    bh   m",
+    "To WRite Ya Set:        y    r     l    v    s",
+    "                        \"s  .s    h    k.s",
+    "",
+    "This is how you write swaras:",
+    "         a   aa i  ii  u  uu  .r  .r.r  e  ai  o  au  a.m  a.h",
+    "",
+    "For Example if you want to write chaalaka in SKT, you would say",
+    "           caa   l    ka.h",
+    "",
+    "Please note, there is a back-slash \\ that you have use when",
+    "There is a leading \" double quotes.",
+    "--"
+  ],
+  "version": "1.0.0",
+  "cards":
+  [
+    {
+      "id":   "1",
+      "word": ["caa", "la", "ka.h"],
+      "picture": "https://j-raghavan.github.io/assets/jumblewords/car-driving.png",
+      "hint": ["One who drives."]
+    },
+    {
+      "id":   "2",
+      "word": ["va", ".ta.h"],
+      "picture": "https://clipartart.com/images/a-clipart-tree-5.png",
+      "hint": ["A Tree."]
+    },
+    {
+      "id":   "3",
+      "word": ["na", ".ta.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Yakshaganads.jpg",
+      "hint": [" An Indian Actor."]
+    },
+    {
+      "id":   "4",
+      "word": ["ra", "tha.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9e/Tiruvannaikkaval4.jpg",
+      "hint": [" Chariot"]
+    },
+    {
+      "id":   "5",
+      "word": ["\"sa", "\"sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/1/1f/Oryctolagus_cuniculus_Rcdo.jpg",
+      "hint": [" Rabbit"]
+    },
+    {
+      "id":   "6",
+      "word": ["aa", "mra", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c3/Mangoes_pic.jpg",
+      "hint": [" Mango"]
+    },
+    {
+      "id":   "7",
+      "word": ["naa", "ra", "\"n", "ga", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b0/OrangeBloss_wb.jpg",
+      "hint": [" An Orange Fruit"]
+    },
+    {
+      "id":   "8",
+      "word": ["daa", ".di", "ma.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Pomegranate02_edit.jpg",
+      "hint": [" Pomegranate "]
+    },
+    {
+      "id":   "9",
+      "word": ["se", "va", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f4/Honeycrisp.jpg",
+      "hint": [" Apple "]
+    },
+    {
+      "id":   "10",
+      "word": ["naa", "ri", "ke", "la.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/32/Cocos_nucifera_-_K%C3%B6hler%E2%80%93s_Medizinal-Pflanzen-187.jpg",
+      "hint": [" Coconut "]
+    },
+    {
+      "id":   "11",
+      "word": ["ka", "da", "lii"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/44/Bananas_white_background_DS.jpg",
+      "hint": [" Banana "]
+    },
+    {
+      "id":   "12",
+      "word": ["draa", "k.saa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bb/Table_grapes_on_white.jpg",
+      "hint": [" Grapes "]
+    },
+    {
+      "id":   "13",
+      "word": ["ka", "li", "\"n", "ga", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/47/Taiwan_2009_Tainan_City_Organic_Farm_Watermelon_FRD_7962.jpg",
+      "hint": [" Watermelon "]
+    },
+    {
+      "id":   "14",
+      "word": ["ha", "ya.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/24/Horsescd1l-095.jpg",
+      "hint": [" Horse "]
+    },
+    {
+      "id":   "15",
+      "word": ["jha", ".sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/23/Georgia_Aquarium_-_Giant_Grouper_edit.jpg",
+      "hint": [" Fish "]
+    },
+    {
+      "id":   "16",
+      "word": ["ha", "la", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a1/Young_Folks%27_History_of_Rome_illus090.png",
+      "hint": [" Indian Plough "]
+    },
+    {
+      "id":   "17",
+      "word": ["va", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/bc/Biogradska_suma.jpg",
+      "hint": [" Forest "]
+    },
+    {
+      "id":   "18",
+      "word": ["ja", "la", "m"],
+      "picture": "https://www.verdict.co.uk/wp-content/uploads/2019/08/water-harvester-1440x970.jpg",
+      "hint": [" Water "]
+    },
+    {
+      "id":   "19",
+      "word": ["da", "la", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/78/Petal-sepal.jpg",
+      "hint": [" Petal "]
+    },
+    {
+      "id":   "20",
+      "word": ["ha", "ra.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Murudeshwar_Shiva.jpg",
+      "hint": [" Shiva "]
+    },
+    {
+      "id":   "21",
+      "word": ["ka", "ra.h"],
+      "picture": "https://en.wikipedia.org/wiki/Hand#/media/File:Human-Hands-Front-Back.jpg",
+      "hint": [" Hand "]
+    },
+    {
+      "id":   "22",
+      "word": ["ka", "la", "\"sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/ce/Matka_Kalash.jpg",
+      "hint": [" Kalash "]
+    },
+    {
+      "id":   "23",
+      "word": ["ca", "ra", ".na.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/Gray1240.png",
+      "hint": [" Leg "]
+    },
+    {
+      "id":   "24",
+      "word": ["ra", "ja", "ka.h"],
+      "picture": "http://www.clipartsmania.com/occasions/thumb/dhobies_occupation_vector_free_cliparts.jpg",
+      "hint": [" Washerman "]
+    },
+    {
+      "id":   "25",
+      "word": ["ma", "ka", "ra.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/29/Pangil_Crocodile_Park_Davao_City.jpg",
+      "hint": [" Crocodile "]
+    },
+    {
+      "id":   "26",
+      "word": ["ca", "ma", "sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/23/Spoon_national_museum_india.JPG",
+      "hint": [" Spoon "]
+    },
+    {
+      "id":   "27",
+      "word": ["ca", "ma", "sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/ba/Jackfruit_hanging.JPG",
+      "hint": [" JackFruit "]
+    },
+    {
+      "id":   "28",
+      "word": ["bha", "va", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/06/2006-10-Hausboot-Mississippi-037_34A.jpg",
+      "hint": [" House "]
+    },
+    {
+      "id":   "29",
+      "word": ["ca", ".ta", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Passer_domesticus_male_%2815%29.jpg",
+      "hint": [" Sparrow "]
+    },
+    {
+      "id":   "30",
+      "word": ["na", "ga", "ra", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Paris_-_Eiffelturm_und_Marsfeld2.jpg",
+      "hint": [" City "]
+    },
+    {
+      "id":   "31",
+      "word": ["ka", "ma", "la", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Sacred_lotus_Nelumbo_nucifera.jpg",
+      "hint": [" Lotus "]
+    },
+    {
+      "id":   "32",
+      "word": ["ta", "na", "ya.h"],
+      "picture": "https://j-raghavan.github.io/sb-flash-cards/son.png",
+      "hint": [" Son "]
+    },
+    {
+      "id":   "33",
+      "word": ["aa", "la", "ya.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Srirangam_1909.jpg",
+      "hint": [" Temple "]
+    },
+    {
+      "id":   "34",
+      "word": ["aa", "pa", ".na.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/94/Taliparamba_grocery.jpg",
+      "hint": [" Small Indian Grocery Shop "]
+    },
+    {
+      "id":   "35",
+      "word": ["sa", "da", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/53/Ishtar_gate_in_Pergamon_museum_in_Berlin..jpg",
+      "hint": [" Building "]
+    },
+    {
+      "id":   "36",
+      "word": ["na", "ya", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/8f/Human_eye_with_blood_vessels.jpg",
+      "hint": [" Human Eyes "]
+    },
+    {
+      "id":   "37",
+      "word": ["a", "la", "sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a9/British_club_scene.jpg",
+      "hint": [" Lazy "]
+    },
+    {
+      "id":   "38",
+      "word": ["a", "dha", "ra.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/99/Mouth.jpg",
+      "hint": [" Lip "]
+    },
+    {
+      "id":   "39",
+      "word": ["ma", "\"sa", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d0/Aedes_aegypti.jpg",
+      "hint": [" Mosquito "]
+    },
+    {
+      "id":   "40",
+      "word": ["aa", "ta", "pa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/da/171879main_LimbFlareJan12_lg.jpg",
+      "hint": [" Heat "]
+    },
+    {
+      "id":   "41",
+      "word": ["la", "va", ".na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/07/Comparison_of_Table_Salt_with_Kitchen_Salt.png",
+      "hint": [" Salt "]
+    },
+    {
+      "id":   "42",
+      "word": ["cha", ".ta"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/09/Linkopings_stadsbibliotek_roof2.jpg",
+      "hint": [" Roof "]
+    },
+    {
+      "id":   "43",
+      "word": ["pha", "la", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/2/2f/Culinary_fruits_front_view.jpg",
+      "hint": [" Fruit "]
+    },
+    {
+      "id":   "44",
+      "word": ["ga", ".ne", "\"sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6a/India_ganesha.jpg",
+      "hint": [" Lord Ganesha "]
+    },
+    {
+      "id":   "45",
+      "word": ["ga", "ja.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/37/African_Bush_Elephant.jpg",
+      "hint": [" Elephant "]
+    },
+    {
+      "id":   "46",
+      "word": ["ma", "laa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c1/India_-_Chennai_-_Colours_-_Heavy_garlands_for_sale_%283058669185%29.jpg",
+      "hint": [" Garland "]
+    },
+    {
+      "id":   "47",
+      "word": ["ga", ".ta.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/48/Clay_Pots-BW-IMG_7303.jpg",
+      "hint": [" Clay Pot "]
+    },
+    {
+      "id":   "48",
+      "word": ["ba", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/df/Mycteria_leucocephala_-_Pak_Thale.jpg",
+      "hint": [" Stork "]
+    },
+    {
+      "id":   "49",
+      "word": ["ba", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sky-3.jpg",
+      "hint": [" Stork "]
+    },
+    {
+      "id":   "50",
+      "word": ["ga", "ga", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/8/85/Sky-3.jpg",
+      "hint": [" Beautiful Sky "]
+    },
+    {
+      "id":   "51",
+      "word": ["ja", "na", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/91/Paternal_bonding_between_father_and_newborn_daughter.jpg",
+      "hint": [" Father "]
+    },
+    {
+      "id":   "52",
+      "word": ["ja", "na", "ni"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b9/Mother_and_Child_-_Neak_Pean_-_Angkor_-_Cambodia.JPG",
+      "hint": [" Mother "]
+    },
+    {
+      "id":   "53",
+      "word": ["\"sa", "ka", ".ta.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/en/d/d5/Oxcartman-1-.gif",
+      "hint": [" Ox Cart "]
+    },
+    {
+      "id":   "54",
+      "word": ["pa", "ca", "ka.h"],
+      "picture": "https://en.wikipedia.org/wiki/Chef#/media/File:Chef_preparing_naan_to_be_baked_in_a_tandoori.jpeg",
+      "hint": [" A Chef "]
+    },
+    {
+      "id":   "55",
+      "word": ["chaa", "yaa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Looking_down_from_The_Eiffel_Tower%2C_Paris_8_April_2007.jpg",
+      "hint": [" Shadow "]
+    },
+    {
+      "id":   "56",
+      "word": ["baa", ".na.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/dc/Two_arrows.jpg",
+      "hint": [" Arrow "]
+    },
+    {
+      "id":   "57",
+      "word": ["taa", "la.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/60/Solex_99_30_padlock_with_keys_%28DSCF2659%29.jpg",
+      "hint": [" Lock "]
+    },
+    {
+      "id":   "58",
+      "word": ["baa", "la", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/96/African_boy_transporting_fodder_by_bicycle_edit.jpg",
+      "hint": [" Boy "]
+    },
+    {
+      "id":   "59",
+      "word": ["kaa", "ga", "da", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c4/Coloured%2C_textured_craft_card.jpg",
+      "hint": [" Paper "]
+    },
+    {
+      "id":   "60",
+      "word": ["bhaa", "ra", "ta", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Indian_cultural_zone.svg",
+      "hint": [" India "]
+    },
+    {
+      "id":   "61",
+      "word": ["paa", "ka", "\"saa", "laa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Medieval_kitchen.jpg",
+      "hint": [" Kitchen "]
+    },
+    {
+      "id":   "62",
+      "word": ["kaa", "la.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/45/MontreGousset001.jpg",
+      "hint": [" Time "]
+    },
+    {
+      "id":   "63",
+      "word": ["maa", "sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/9b/Month_-_Knuckles_%28en%29.svg",
+      "hint": [" Month "]
+    },
+    {
+      "id":   "64",
+      "word": ["\"saa", "khaa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/cf/White_Branches.jpg",
+      "hint": [" Tree Branch "]
+    },
+    {
+      "id":   "65",
+      "word": ["vi", "maa", "na", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5e/ANA_777-300_Taking_off_from_JFK.jpg",
+      "hint": [" Air Plane "]
+    },
+    {
+      "id":   "66",
+      "word": ["ci", "bu", "ka", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/48/Cleft-Chin.jpg",
+      "hint": [" Chin "]
+    },
+    {
+      "id":   "67",
+      "word": ["gi", "ri", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6e/Monasterio_Khor_Virap%2C_Armenia%2C_2016-10-01%2C_DD_25.jpg",
+      "hint": [" Mountain "]
+    },
+    {
+      "id":   "68",
+      "word": ["pi", "paa", "saa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e0/William-Adolphe_Bouguereau_%281825-1905%29_-_Thirst_%281886%29.jpg",
+      "hint": [" Thirsty "]
+    },
+    {
+      "id":   "69",
+      "word": ["ni", "dhi"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/7a/Tesoro_de_Villena.jpg",
+      "hint": [" Wealth / Treasure "]
+    },
+    {
+      "id":   "70",
+      "word": ["ni", "\"saa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/c/c4/View_across_the_bay_of_Naples_at_night.jpg",
+      "hint": [" Night "]
+    },
+    {
+      "id":   "71",
+      "word": ["\"si", "laa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/72/DirkvdM_rocks.jpg",
+      "hint": [" Rock "]
+    },
+    {
+      "id":   "72",
+      "word": ["ra", "vi"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b4/The_Sun_by_the_Atmospheric_Imaging_Assembly_of_NASA%27s_Solar_Dynamics_Observatory_-_20100819.jpg",
+      "hint": [" Sun "]
+    },
+    {
+      "id":   "73",
+      "word": ["ra", "vi"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/35/Veena.png",
+      "hint": [" Veena "]
+    },
+    {
+      "id":   "74",
+      "word": ["dhii", "va", "r"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/6d/Fisherman_and_his_catch_Seychelles.jpg",
+      "hint": [" Fisherman "]
+    },
+    {
+      "id":   "75",
+      "word": ["bii", "ja", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e7/Avocado_seed_diagram-en.svg",
+      "hint": [" Seed "]
+    },
+    {
+      "id":   "76",
+      "word": ["nii", "la.h"],
+      "picture": "https://en.wikipedia.org/wiki/Blue#/media/File:Copper_sulfate.jpg",
+      "hint": [" Blue Color "]
+    },
+    {
+      "id":   "77",
+      "word": ["nii", "la.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/69/Ochre_quarry%2C_Roussillon%2C_France_%28465185258%29.jpg",
+      "hint": [" Yellow Color "]
+    },
+    {
+      "id":   "78",
+      "word": ["ti", "la", "ka", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/6/61/A_Hindu_wedding_ritual_in_progress_b.jpg",
+      "hint": [" Tilaka / mark worn usually on the forehead "]
+    },
+    {
+      "id":   "79",
+      "word": ["gu", "r.u"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/db/Classroom_at_a_seconday_school_in_Pendembu_Sierra_Leone.jpg",
+      "hint": [" Teacher / Guru "]
+    },
+    {
+      "id":   "80",
+      "word": ["t.u", "laa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/1/17/Balance_%C3%A0_tabac_1850.JPG",
+      "hint": [" Balance "]
+    },
+    {
+      "id":   "81",
+      "word": ["mu", "kha", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/98/Sobo_1909_260.png",
+      "hint": [" Face "]
+    },
+    {
+      "id":   "82",
+      "word": ["t.u", "la", "si"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a7/Ocimum_tenuiflorum2.jpg",
+      "hint": [" Tulasi "]
+    },
+    {
+      "id":   "83",
+      "word": ["ch.u", "ri", "kaa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/3/33/Damascus_Bowie.jpg",
+      "hint": [" Knife "]
+    },
+    {
+      "id":   "84",
+      "word": ["k.u.u", "pa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/7/73/Model_well%2C_burial_find%2C_China%2C_Han_dynasty%2C_206_BC_to_220_AD%2C_earthenware_-_%C3%96stasiatiska_museet%2C_Stockholm_-_DSC09578.JPG",
+      "hint": [" Well "]
+    },
+    {
+      "id":   "85",
+      "word": ["dh.u.u", "ma.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Ognisko_ubt_0126.jpeg",
+      "hint": [" Smoke "]
+    },
+    {
+      "id":   "86",
+      "word": ["s.u", "cii"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e1/Syende_fiskerpige.jpeg",
+      "hint": [" Sewing Needle "]
+    },
+    {
+      "id":   "87",
+      "word": ["n.u.u", "p.u", "ra", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/4/4d/Ghungroo.jpg",
+      "hint": [" Musical Anklet tied to the feed by Indian Dancers "]
+    },
+    {
+      "id":   "88",
+      "word": ["m.u.u", ".sa", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/01/Rattus_norvegicus_1.jpg",
+      "hint": [" Rat / Mouse "]
+    },
+    {
+      "id":   "89",
+      "word": ["s.u.u", "ka", "ra.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/59/Sow_with_piglet.jpg",
+      "hint": [" Pig "]
+    },
+    {
+      "id":   "90",
+      "word": ["bh.u.u", "mi"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg",
+      "hint": [" Mother Earth "]
+    },
+    {
+      "id":   "91",
+      "word": ["p.u.u", "jaa"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Madurai_Meenakshi_temple_prayer.jpg",
+      "hint": [" Pooja "]
+    },
+    {
+      "id":   "92",
+      "word": ["k.u.u", "pii"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Botella_de_pl%C3%A1stico_-_PET.jpg",
+      "hint": [" Bottle "]
+    },
+    {
+      "id":   "93",
+      "word": ["me", ".sa.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/b/b2/Hausziege_04.jpg",
+      "hint": [" Goat "]
+    },
+    {
+      "id":   "94",
+      "word": ["le", "kha", "ka.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Francisco_de_Goya_y_Lucientes_-_Gaspar_Melchor_de_Jovellanos.jpg",
+      "hint": [" Writer "]
+    },
+    {
+      "id":   "95",
+      "word": ["dhe", "n.u"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d4/CH_cow_2_cropped.jpg",
+      "hint": [" Cow "]
+    },
+    {
+      "id":   "96",
+      "word": ["se", "t.u"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/d/d6/Firth_unsplash_2.jpg",
+      "hint": [" Bridge "]
+    },
+    {
+      "id":   "97",
+      "word": ["ve", ".n.u"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bansuri_bamboo_flute_23inch.jpg",
+      "hint": [" Indian Flute "]
+    },
+    {
+      "id":   "98",
+      "word": ["ve", ".n.u"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/0/02/Bansuri_bamboo_flute_23inch.jpg",
+      "hint": [" Indian Flute "]
+    },
+    {
+      "id":   "99",
+      "word": ["le", "kha", "nii"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/ae/Carandache_Ecridor.jpg",
+      "hint": [" Pen "]
+    },
+    {
+      "id":   "100",
+      "word": ["me", "gha.h"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/a/a3/Cumulus_clouds_panorama.jpg",
+      "hint": [" Clouds "]
+    }
+  ]
+}
