@@ -632,6 +632,12 @@
       "word": ["nau", "kaa"],
       "picture": "https://upload.wikimedia.org/wikipedia/commons/a/af/MSC_Poesia_Vision_of_the_Seas_%26_Mein_Schiff_2_in_Tallinn_13_June_2012.JPG",
       "hint": [" Ship "]
+    },
+    {
+      "id":   "102",
+      "word": ["tai", "la", "m"],
+      "picture": "https://upload.wikimedia.org/wikipedia/commons/e/e9/Italian_olive_oil_2007.jpg",
+      "hint": [" Oil "]
     }
   ]
 }
